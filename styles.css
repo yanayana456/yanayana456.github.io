@@ -1,0 +1,4 @@
+body {background: rgb(213,11,52);
+    background: radial-gradient(circle, rgba(213,11,52,1) 0%, rgba(17,1,45,1) 100%);}
+* {color: aliceblue;}
+.about-me :hover {color: aqua;}
