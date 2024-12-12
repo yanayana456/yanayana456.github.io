@@ -11,8 +11,8 @@ div {
 
 body {
     margin: 0px;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(43, 51, 97);
+    /*background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
     text-align: center;
     max-width: 100%;
     font-weight: 527;
@@ -21,11 +21,54 @@ body {
     
 
 }
+
+.logo {
+    margin-right: auto;
+}
+.ii {
+    padding-right: 30px;
+}
+.main-block {
+    width: 100%;
+    min-height: 500px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-directio;
+    justify-content: center;
+    background-image: url(images/jjjj.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1003px;
+    min-height: 1003px;}
+
+.photo {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    position: absolute;
+   
+}
+.me {
+    font-size: 25px;
+    padding: 10px;
+    border: 10px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-family: "Press Start 2P", system-ui;
+    color: rgb(187, 241, 219);
+}
+
 .education p {
     border: 0px solid #466995;
     background-color: #f7e4f881;
     padding: 20px;
     border-radius: 10px;
+    margin: 25px 500px;
+  
     
 }
 .about p {
@@ -33,7 +76,7 @@ body {
     background-color: #f7e4f881;
     padding: 20px;
     border-radius: 10px;
-    
+    margin: 0 500px;
     display: flex;
     justify-content: center;
 }
@@ -42,8 +85,12 @@ body {
     background-color: #f7e4f881;
     border-radius: 10px;
     padding: 5px;
+    margin: 20px 600px;
 }
-
+.conteiner {
+    list-style-type: none;
+    display: flex;
+}
 .menu {
     position: fixed;
     justify-content: space-around;
@@ -57,6 +104,7 @@ body {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
+    
 
    /* margin: 0;
     padding: 20px;
@@ -69,17 +117,17 @@ body {
     width: 100%;*/
 }
 #about h2 {
-    background-color: rgb(245, 213, 243);
+    background-color: rgba(115, 160, 160, 0.527);
     font-size: 25px;
     padding: 10px;
     border: 10px;
     margin-bottom: 25px;
-    margin-top: 50px;
+    margin-top: 250px;
     font-family: "Press Start 2P", system-ui;
     
 }
 .works h2{
-    background-color: rgb(238, 175, 235);
+    background-color: rgba(181, 130, 247, 0.63);
     font-size: 25px;
     padding: 10px;
     border: 10px;
@@ -92,7 +140,7 @@ body {
   
 }
 .hobby h3{
-    background-color: rgb(236, 186, 233);
+    background-color: rgb(114, 147, 253);
     font-size: 25px;
     padding: 10px;
     border: 10px;
@@ -101,18 +149,19 @@ body {
     font-family: "Press Start 2P", system-ui;
 }
 .education h2 {
-    background-color: rgb(250, 202, 247);
+    background-color: rgba(149, 234, 255, 0.534);
     font-size: 25px;
     padding: 10px;
     border: 10px;
     margin-bottom: 25px;
     margin-top: 100px;
     font-family: "Press Start 2P", system-ui;
+    
 }
 .menu :hover {
     color: aqua;
    
-  
+    
 }
 
 .workss :hover {
@@ -125,6 +174,11 @@ body {
     background-color: #f7e4f881;
     border-radius: 10px;
 }
+    
+.works ul {
+    display: flex;
+    position: sticky;
+}
 
 #weaving {
     background-color: rgba(243, 213, 224, 0.411);
@@ -132,6 +186,7 @@ body {
     padding: 10px;
     border: 10px;
     font-family: "Press Start 2P", system-ui;
+    margin: 50px 0px;
    
 }
 #drawing {
@@ -140,7 +195,7 @@ body {
     padding: 10px;
     border: 10px;
     font-family: "Press Start 2P", system-ui;
-    
+    margin: 50px 0px;
 }
 #d { 
     background-color: rgba(193, 201, 245, 0.555);
@@ -148,7 +203,7 @@ body {
     padding: 10px;
     border: 10px;
     font-family: "Press Start 2P", system-ui;
-   
+    margin: 50px 0px;
 }
 #painting {
     background-color: rgba(193, 210, 245, 0.623);
@@ -156,7 +211,7 @@ body {
     padding: 10px;
     border: 10px;
     font-family: "Press Start 2P", system-ui;
-    
+    margin: 50px 0px;
 }
 #contact h2 {
     background-color: rgb(245, 193, 242);
@@ -167,15 +222,16 @@ body {
     font-family: "Press Start 2P", system-ui;
 }
 
-.workss { border: px solid #466995;
+.workss { border: px solid #db0707;
     padding: 10px;
     margin: 20px;
-    display: inline-block;}
+    display: inline-block;
+}
 .workss :hover {
     padding: 10px ;
     background: #C0D6DF;
     color: #FFF;}
-#contacts h2{   background-color: rgb(250, 202, 247);
+#contacts h2{   background-color: rgba(84, 27, 240, 0.466);
     font-size: 25px;
     padding: 10px;
     border: 10px;
@@ -190,6 +246,7 @@ body {
     border: 0px solid #466995;
     background-color: #f7e4f881;
     border-radius: 10px;
+    margin:20px 600px;
 }
 html {
     scroll-behavior: smooth;
