@@ -88,7 +88,7 @@ body {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    margin-top: 500px;
+    margin-top: px;
     position: absolute;
    
 }
@@ -162,7 +162,7 @@ body {
     padding: 10px;
     border: 10px;
     margin-bottom: 25px;
-    margin-top: 250px;
+    margin-top: 25px;
     font-family: "Press Start 2P", system-ui;
     
 }
